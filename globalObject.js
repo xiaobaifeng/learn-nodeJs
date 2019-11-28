@@ -14,3 +14,5 @@
 console.info('__filename表示当前正在执行的脚本的文件名', __filename);
 // __dirname表示当前执行脚本所在的目录。
 console.info('__dirname表示当前执行脚本所在的目录', __dirname);
+// process.cwd() 是当前执行node命令时候的文件夹地址 ——工作目录，保证了文件在不同的目录下执行时，路径始终不变
+console.info('The process.cwd() method returns the current working directory of the Node.js process.', process.cwd());
